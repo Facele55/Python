@@ -1,23 +1,28 @@
 import random
-def getAnswer(answerNumber):
-    if answerNumber == 1:
+
+
+def get_answer(answer_number: int):
+    if answer_number == 1:
         return 'It is certain'
-    elif answerNumber == 2:
-        return 'it is decidedly so'
-    elif answerNumber == 3:
+    elif answer_number == 2:
+        return 'It is decidedly so'
+    elif answer_number == 3:
         return 'YES'
-    elif answerNumber == 4:
-        return 'reply hazy try again'
-    elif answerNumber == 5:
-        return 'ask again'
-    elif answerNumber == 6:
-        return 'concentrate and ask again'
-    elif answerNumber == 7:
-        return 'my reply is no'
-    elif answerNumber == 8:
-        return 'outlook not so good'
-    elif answerNumber == 9:
-        return 'very doubtful'
-r=random.randint(1,9)
-fortune=getAnswer(r)
-print(fortune)
+    elif answer_number == 4:
+        return 'Reply hazy try again'
+    elif answer_number == 5:
+        return 'aAsk again'
+    elif answer_number == 6:
+        return 'Concentrate and ask again'
+    elif answer_number == 7:
+        return 'My reply is no'
+    elif answer_number == 8:
+        return 'Outlook not so good'
+    else:
+        return 'Very Doubtful'
+
+
+if __name__ == "__main__":
+    r = random.randint(1, 9)
+    fortune = get_answer(r)
+    print(fortune)
