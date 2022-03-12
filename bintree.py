@@ -20,7 +20,6 @@ def print_tree(start, space=0, t=0):
         print("\\", start.data)
     else:
         print(start.data)
-
     print_tree(start.left, space, 2)
 
 

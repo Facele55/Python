@@ -1,5 +1,5 @@
 # Python
-Some python programs:
+Simple python projects:
 - 8ball.py
   - The Magic 8 Ball
 - horoskop.py
@@ -10,3 +10,7 @@ Some python programs:
   - Generating password 
 - string_perm.py 
   - Permutation of string in all possible variations 
+- bintree.py
+  - Binary tree
+
+
