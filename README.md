@@ -13,6 +13,6 @@ Simple python projects:
 - bintree.py
   - Binary tree
 - pln_usd.py 
-  - Currency parser US dollar vs Polish Zloty
+  - Currency parser US dollar vs Polish Zloty, EURO vs Polish Zloty
 
 
