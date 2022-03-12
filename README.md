@@ -12,5 +12,7 @@ Simple python projects:
   - Permutation of string in all possible variations 
 - bintree.py
   - Binary tree
+- pln_usd.py 
+  - Currency parser US dollar vs Polish Zloty
 
 
